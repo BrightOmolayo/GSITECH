@@ -2,3 +2,17 @@ body{
     background-color: #3D4435;
     color: white;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header button{
+    background-color: #A15D31;
+    color: white;
+}
+header a{
+    color: white;
+}
+footer{
+    display: flex;
+}
