@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
     background-color: #3D4435;
     color: white;
@@ -13,6 +17,22 @@ header button{
 header a{
     color: white;
 }
+.On-going-div{
+    display: flex;
+}
+.On-going-div-main{
+    text-align: center;
+}
 footer{
     display: flex;
+    justify-content: space-around;
+}
+
+/* about */
+.about-us-main-intro{
+    display: flex;
+}
+.about-us-main{
+    background-color: #D4D7D9;
+    color: black;
 }
