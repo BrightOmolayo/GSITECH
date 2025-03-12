@@ -27,6 +27,15 @@ footer{
     display: flex;
     justify-content: space-around;
 }
+.line{
+    height: 0.5px;
+    background-color: black;
+}
+/* Main page */
+.main-page-intro{
+    display: flex;
+    justify-content: space-between;
+}
 
 /* about */
 .about-us-main-intro{
@@ -35,4 +44,11 @@ footer{
 .about-us-main{
     background-color: #D4D7D9;
     color: black;
+}
+.objective-div{
+    border: 2px solid yellow ;
+    display: flex;
+}
+.our-vision-div{
+    display: flex;
 }
