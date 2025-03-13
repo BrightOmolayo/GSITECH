@@ -5,50 +5,233 @@
 body{
     background-color: #3D4435;
     color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-header{
+img{
+    width: 100%;
+}
+nav{
     display: flex;
     justify-content: space-between;
+    padding: 10px;
+    margin: 15px;
 }
-header button{
-    background-color: #A15D31;
+nav button{
+    background-color: #D4D7D9;
+    color:black;
+    padding: 8px;
+    margin-right: 20px;
+    width: 160px;
+    border-radius: 25px;
+    border: none;
+}
+nav a{
     color: white;
+    text-decoration: none;
 }
 header a{
     color: white;
+    text-decoration: none;
+}
+header{
+    margin: 25px 0px;
+    display: block;
 }
 .On-going-div{
     display: flex;
+    justify-content: space-between;
+    margin: 70px 40px;
+}
+.On-going-div div{
+    width: 25%;
+    text-align: center;
+    padding: 2%;
+    background-color: #3D4435;
+    list-style: 20px;
+}
+.On-going-div h4{
+    margin-bottom: 30px;
 }
 .On-going-div-main{
     text-align: center;
+    background-color: white;
+    padding-bottom: 40px;
+}
+.On-going-div-main h2{
+    color:#3D4435 !important;
+    text-transform: uppercase;
+    position: relative;
+    top: 30px;
 }
 footer{
     display: flex;
     justify-content: space-around;
+    margin: 36px 15px;
+    line-height: 25px;
+}
+footer h4{
+    margin: 10px 5px;
+}
+input{
+    margin-top: 15px;
+    padding: 6px;
+}
+.submit{
+    padding: 8px;
+    width: 80px;
+    border-radius: 25px;
+    border: none;
+    margin-left: 4px;
 }
 .line{
-    height: 0.5px;
+    height: 1.5px;
     background-color: black;
+}
+.logo{
+    text-align: center;
+}
+.header-and-navLinks{
+    width:37%;
+}
+.navLinks{
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+}
+
+.social-links{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
 }
 /* Main page */
 .main-page-intro{
     display: flex;
     justify-content: space-between;
+    margin: 18px 15px;
+    padding: 2% 5%;
+}
+.main-page-intro-text{
+    width: 40%;
+    position: relative;
+    top: 160px;
+    left: 40px;
+}
+.main-page-intro-text p{
+    position: relative;
+    top: 30px;
+    line-height: 20px;
 }
 
 /* about */
 .about-us-main-intro{
     display: flex;
+    justify-content: space-between;
+    margin: 30px 15px;
+    padding: 9% 5% 3% 5%;
+}
+.about-us-main-intro button{
+    position: relative;
+    top:70px;
+    width: 200px;
+    background-color: #3D4435;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
 }
 .about-us-main{
     background-color: #D4D7D9;
     color: black;
+    line-height: 20px;
+}
+.about-us-main-intro-text{
+    width: 40%;
+    position: relative;
+    top: 70px;
+}
+.about-us-main-intro-text p{
+    position: relative;
+    top: 30px;
+    line-height: 20px;
+}
+.main-div-two{
+    width: 70%;
+    margin-left: 20%;
+    margin-bottom: 20px;
 }
 .objective-div{
-    border: 2px solid yellow ;
     display: flex;
+    justify-content: space-between;
+    margin: 10% 7% 5% 7%;
+    padding-bottom: 5%;
+}
+.objective-div h4{
+    margin-bottom: 10px;
 }
 .our-vision-div{
     display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.vision{
+    width: 45%;
+}
+.value{
+    width: 35%;
+}
+.objective-div-one{
+    width: 30%;
+}
+.objective-div-two{
+    width: 50%;
+}
+.main-accomplishment{
+    border: 2px solid lawngreen;
+    color: #ffffff;
+    background-color:#3D4435;
+    text-align: center;
+}
+.main-accomplishment-div-one{
+    border: 2px solid salmon;
+    display: flex;
+}
+.main-accomplishment-div-two{
+    border: 2px solid red;
+    display: flex;
+}
+.main-accomplishment-div-three{
+    border: 2px solid green;
+    display: flex;
+}
+.main-accomplishment-div-four{
+    border: 2px solid salmon;
+    display: flex;
+}
+.trained-img{
+    display: flex;
+    justify-content: space-between;
+}
+.trained-img div{
+    width: 20%;
+}
+.sixteen{
+    display: flex;
+}
+.October{
+    display: flex;
+}
+.commenced{
+    display: flex;
+}
+.monitoring{
+    display: flex;
+}
+.acctivity-pictures{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin: 4%;
 }
