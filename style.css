@@ -10,6 +10,10 @@ body{
 img{
     width: 100%;
 }
+main{
+    background-color: #D4D7D9;
+    color: black;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -48,6 +52,7 @@ header{
     padding: 2%;
     background-color: #3D4435;
     list-style: 20px;
+    color: white;
 }
 .On-going-div h4{
     margin-bottom: 30px;
