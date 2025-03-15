@@ -77,6 +77,9 @@ footer{
 footer h4{
     margin: 10px 5px;
 }
+.GSI-image{
+    width: 50%;
+}
 input{
     margin-top: 15px;
     padding: 6px;
@@ -115,7 +118,7 @@ input{
     display: flex;
     justify-content: space-between;
     margin: 18px 15px;
-    padding: 2% 5%;
+    padding: 5% 5%;
 }
 .main-page-intro-text{
     width: 40%;
@@ -138,11 +141,11 @@ input{
 }
 .about-us-main-intro button{
     position: relative;
-    top:70px;
+    top:140px;
     width: 200px;
     background-color: #3D4435;
     color: white;
-    padding: 8px;
+    padding: 10px;
     border-radius: 5px;
     border: none;
     text-transform: uppercase;
@@ -155,12 +158,19 @@ input{
 .about-us-main-intro-text{
     width: 40%;
     position: relative;
-    top: 70px;
+    top: 200px;
+}
+.acctivity-pictures-h1{
+    text-align: center;
+    margin-top: 5%;
 }
 .about-us-main-intro-text p{
     position: relative;
     top: 30px;
     line-height: 20px;
+}
+.about-us-img{
+    width: 50%;
 }
 .main-div-two{
     width: 70%;
@@ -202,18 +212,21 @@ input{
 .main-accomplishment-div-one{
     border: 2px solid salmon;
     display: flex;
+    width: 40%;
 }
 .main-accomplishment-div-two{
     border: 2px solid red;
     display: flex;
+    width: 60%;
 }
 .main-accomplishment-div-three{
     border: 2px solid green;
     display: flex;
+    width: 50%;
 }
 .main-accomplishment-div-four{
     border: 2px solid salmon;
-    display: flex;
+    width: 70%;
 }
 .trained-img{
     display: flex;
@@ -239,4 +252,20 @@ input{
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     margin: 4%;
+    padding-bottom: 4%;
+}
+.services-main{
+    text-align: center;
+    padding: 4%;
+}
+.services-main li{
+    margin: 20px;
+    list-style-type: none;
+    text-align-last: left;
+}
+.services-main ul{
+    margin-left: 90px;
+}
+.service-main-h1{
+    margin-bottom: 60px;
 }
