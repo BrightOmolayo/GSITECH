@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1><a href="index.html">GSITECH</a></h1>
+        </div>
+        <nav>
+            <div class="social-links">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="header-and-navLinks">
+                <div>
+                    <div class="navLinks">
+                        <a href="./about.html">About</a>
+                        <a href="./services.html">Services</a>
+                        <a href="./acctivity.html">Accivities</a>
+                        <a href="./accompliment.html">Accomplishments</a>
+                    </div>
+                </div>
+            </div>
+            
+            <button> <a href="./contact.html">Work With Us</a></button>
+            
+        </nav>
+    </header>
+
+    <div class="contact-form">
+        <form onsubmit="sendEmail(event)">
+            <label for="first-name">Name (required)</label><br>
+            <input type="text" id="first-name" name="first_name" placeholder="First Name" required>
+            <input type="text" id="last-name" name="last_name" placeholder="Last Name" required>
+            <br><br>
+    
+            <label for="email">Email (required)</label><br>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+    
+            <label for="subject">Subject (required)</label><br>
+            <input type="text" id="subject" name="subject" required>
+            <br><br>
+    
+            <label for="message">Message (required)</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <br><br>
+    
+            <button type="submit">Send Email</button>
+        </form>
+    
+    </div>
+    <footer>
+        <div>
+            <h4>Office
+                Location
+                </h4>
+            <p>
+                Our head office is located at <br>
+                No. 20A, Ondo Avenue, Opposite <br>
+                Ijapo Mega Primary School, Ijapo <br>
+                Estate, Akure, Ondo State.
+            </p>
+        </div>
+        <!-- <div>
+            <div class="footerLogo"></div>
+        </div> -->
+        <div>
+            <h4>Contact</h4>
+            <div>
+                <p>+234-90 930 29166</p>
+                <p>+234-80 338 53384</p>
+            </div>
+            <div>
+                <p>+234-90 930 29167</p>
+                <p>+234-80 236 32230</p>
+            </div>
+            <div class="email">Email: gsitech.ng@gmail.com </div>
+        </div>
+        <div>
+            <div>
+                <h3>GREEN-SHEILD INTEGRATED</h3>
+                <P>TECHNOLOGIES NIG.LTD</P>
+            </div>
+            <div>
+                <input type="email" name="Email Address" id="email" placeholder="Email Address" required>
+                <button type="submit" class="submit">Submit</button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

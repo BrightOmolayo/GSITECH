@@ -173,9 +173,13 @@ input{
     width: 50%;
 }
 .main-div-two{
-    width: 70%;
-    margin-left: 20%;
+    display: flex;
     margin-bottom: 20px;
+    justify-content: space-around;
+    border: 2px solid firebrick;
+}
+.main-div-two p{
+    width: 50%;
 }
 .objective-div{
     display: flex;
