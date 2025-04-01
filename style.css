@@ -54,12 +54,32 @@ header{
     list-style: 20px;
     color: white;
 }
+.On-going-div-main-index{
+    background-image: url("./assets/images/planting14.jpg");
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.9);
+    background-blend-mode:darken; 
+}
+#training{
+    background-color: rgba(61, 68, 53, 0.5);
+}
+#Internship{
+    background-color: rgba(61, 68, 53, 0.5);  
+}
+#Poultry{
+    background-color: rgba(61, 68, 53, 0.5);  
+}
+.mini-intro-text{
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 4%;
+}
 .On-going-div h4{
     margin-bottom: 30px;
 }
 .On-going-div-main{
     text-align: center;
-    background-color: white;
+    background-color:transparent;
     padding-bottom: 40px;
 }
 .On-going-div-main h2{
@@ -139,26 +159,31 @@ input{
     margin: 30px 15px;
     padding: 9% 5% 3% 5%;
 }
-.about-us-main-intro button{
-    position: relative;
-    top:140px;
-    width: 200px;
-    background-color: #3D4435;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    text-transform: uppercase;
-}
 .about-us-main{
     background-color: #D4D7D9;
     color: black;
     line-height: 20px;
 }
+.main-div-two{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 15px;
+    padding: 9% 5% 3% 5%;
+}
+.main-div-two p{
+    width: 40%;
+    position: relative;
+    top: 70px; 
+}
+.main-div-two-img{
+    width: 90%;
+    position: relative;
+    top: 70px; 
+}
 .about-us-main-intro-text{
     width: 40%;
     position: relative;
-    top: 200px;
+    top: 70px;
 }
 .acctivity-pictures-h1{
     text-align: center;
@@ -171,12 +196,6 @@ input{
 }
 .about-us-img{
     width: 50%;
-}
-.main-div-two{
-    display: flex;
-    margin-bottom: 20px;
-    justify-content: space-around;
-    border: 2px solid firebrick;
 }
 .main-div-two p{
     width: 50%;
