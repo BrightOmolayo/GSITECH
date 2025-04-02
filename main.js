@@ -1,17 +1,30 @@
-document.addEventListener("DOMContentLoaded", function () {
-    document.getElementById("contact-form").addEventListener("submit", function (event) {
-        event.preventDefault(); // Prevent default form submission
+// Get all the accordion buttons
+const accordionButtons = document.querySelectorAll('.accordion-button')
 
-        let firstName = document.getElementById("first-name").value;
-        let lastName = document.getElementById("last-name").value;
-        let email = document.getElementById("email").value;
-        let subject = document.getElementById("subject").value;
-        let message = document.getElementById("message").value;
+// Loop through each button
+accordionButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    // Toggle the active class on the clicked button
+    button.classList.toggle('active')
 
-        let mailtoLink = `mailto:molayobright@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
-            Name: ${firstName} ${lastName}%0D%0AEmail: ${email}%0D%0AMessage: ${message}
-        )}`;
+    // Get the associated accordion content
+    const content = button.nextElementSibling
 
-        window.location.href = mailtoLink;
-    });
-});
+    // Check if the content is currently displayed
+    if (content.style.display === 'block') {
+      content.style.display = 'none' // Hide the content
+    } else {
+      content.style.display = 'block' // Show the content
+    }
+  })
+})
+
+// Optional: Add interactive flip functionality when clicked, if needed
+const cards = document.querySelectorAll('.card')
+
+// Uncomment this block to enable clicking to flip cards
+cards.forEach(card => {
+  card.addEventListener('click', () => {
+    card.classList.toggle('flipped')
+  })
+})
