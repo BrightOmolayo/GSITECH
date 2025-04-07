@@ -355,13 +355,24 @@ input{
     transform: rotateY(180deg);
 }
 .contact-page-main{
-    display: flex;
-    justify-content: center;
-    padding: 5%;
+    padding: 100px 0px 50px 200px ;
 }
 .contact-page-main input{
     width: 400px;
+    background-color: transparent;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid #3D4435;
+    margin-bottom: 35px;
 }
 .contact-page-main textarea{
     width: 420px;
+}
+.contact-page-main button{
+    padding: 2%;
+    border: 2px solid #3D4435;
+    border-radius: 20px;
+    background-color: #3D4435;
+    color: #D4D7D9;
 }

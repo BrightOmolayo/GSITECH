@@ -34,27 +34,28 @@
     </header>
     <main class="contact-page-main">
         <div class="contact-form">
-            <form onsubmit="sendEmail(event)">
-                <label for="first-name">What is your name (required)</label><br>
-                <input type="text" id="first-name" name="first_name" placeholder="Type in your name" required>
+            <form id="contactForm" method="post" 
+            action="https://rake.red/api/cont/cont">
+                <label for="first-name">1. What is your name (required)</label><br>
+                <input type="text"  id="firstName" name="first_name" placeholder="Type in your name" required>
                 <br><br>
-                <label for="first-name">What is your surname (required)</label><br>
-                <input type="text" id="last-name" name="last_name" placeholder="Type in your surname" required>
+                <label for="first-name">2. What is your surname (required)</label><br>
+                <input type="text" id="lastName" name="last_name" placeholder="Type in your surname" required>
                 <br><br>
         
-                <label for="email"> What is your email address (required)</label><br>
+                <label for="email">3. What is your email address (required)</label><br>
                 <input type="email" id="email" name="email" required placeholder="e.g MusaAdeObi@gmail.com">
                 <br><br>
         
-                <label for="subject">What services are you interested in? (required)</label><br>
+                <label for="subject">4. What services are you interested in? (required)</label><br>
                 <input type="text" id="subject" name="subject" required>
                 <br><br>
         
-                <label for="message">Send us a message/note (required)</label><br>
+                <label for="message">5. Send us a message/note (required)</label><br>
                 <textarea id="message" name="message" rows="9" required></textarea>
                 <br><br>
         
-                <button type="submit">Send Email</button>
+                <button type="submit" id="sendBtn">Send Email</button>
             </form>
         
         </div>
@@ -98,7 +99,7 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="main.js"></script>
 
 </body>
 </html>
