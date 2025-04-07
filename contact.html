@@ -32,30 +32,33 @@
             
         </nav>
     </header>
-
-    <div class="contact-form">
-        <form onsubmit="sendEmail(event)">
-            <label for="first-name">Name (required)</label><br>
-            <input type="text" id="first-name" name="first_name" placeholder="First Name" required>
-            <input type="text" id="last-name" name="last_name" placeholder="Last Name" required>
-            <br><br>
-    
-            <label for="email">Email (required)</label><br>
-            <input type="email" id="email" name="email" required>
-            <br><br>
-    
-            <label for="subject">Subject (required)</label><br>
-            <input type="text" id="subject" name="subject" required>
-            <br><br>
-    
-            <label for="message">Message (required)</label><br>
-            <textarea id="message" name="message" rows="4" required></textarea>
-            <br><br>
-    
-            <button type="submit">Send Email</button>
-        </form>
-    
-    </div>
+    <main class="contact-page-main">
+        <div class="contact-form">
+            <form onsubmit="sendEmail(event)">
+                <label for="first-name">What is your name (required)</label><br>
+                <input type="text" id="first-name" name="first_name" placeholder="Type in your name" required>
+                <br><br>
+                <label for="first-name">What is your surname (required)</label><br>
+                <input type="text" id="last-name" name="last_name" placeholder="Type in your surname" required>
+                <br><br>
+        
+                <label for="email"> What is your email address (required)</label><br>
+                <input type="email" id="email" name="email" required placeholder="e.g MusaAdeObi@gmail.com">
+                <br><br>
+        
+                <label for="subject">What services are you interested in? (required)</label><br>
+                <input type="text" id="subject" name="subject" required>
+                <br><br>
+        
+                <label for="message">Send us a message/note (required)</label><br>
+                <textarea id="message" name="message" rows="9" required></textarea>
+                <br><br>
+        
+                <button type="submit">Send Email</button>
+            </form>
+        
+        </div>
+    </main>
     <footer>
         <div>
             <h4>Office

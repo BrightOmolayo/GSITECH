@@ -354,3 +354,14 @@ input{
     color: white;
     transform: rotateY(180deg);
 }
+.contact-page-main{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+.contact-page-main input{
+    width: 400px;
+}
+.contact-page-main textarea{
+    width: 420px;
+}
