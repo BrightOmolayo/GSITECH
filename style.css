@@ -167,7 +167,7 @@ input{
 .main-div-two{
     display: flex;
     justify-content: space-around;
-    margin: 30px 15px;
+    margin: 20px 15px;
     padding: 9% 5% 3% 5%;
 }
 .main-div-two p{
@@ -183,7 +183,7 @@ input{
 .about-us-main-intro-text{
     width: 40%;
     position: relative;
-    top: 70px;
+    top: 140px;
 }
 .acctivity-pictures-h1{
     text-align: center;
@@ -230,8 +230,11 @@ input{
     color: #ffffff;
     background-color:#3D4435;
     text-align: center;
+    padding: 2px 40px;
 }
-
+.main-accomplishment h1{
+    margin-bottom: 6%;
+}
 .trained-img{
     display: flex;
     justify-content: space-between;
@@ -316,7 +319,7 @@ input{
     width: 250px;
     height: 350px;
     transform-style: preserve-3d;
-    transition: transform 4.6s;
+    transition: transform 2.6s;
     cursor: pointer;
 }
 
@@ -329,7 +332,7 @@ input{
     width: 100%;
     height: 100%;
     transform-style: preserve-3d;
-    transition: transform 4.6s;
+    transition: transform 2.6s;
 }
 
 .card-front, .card-back {
@@ -368,6 +371,7 @@ input{
 }
 .contact-page-main textarea{
     width: 420px;
+    margin-top: 28px;
 }
 .contact-page-main button{
     padding: 2%;
@@ -375,4 +379,164 @@ input{
     border-radius: 20px;
     background-color: #3D4435;
     color: #D4D7D9;
+}
+.fishdiv{
+    display: flex;
+    justify-content: space-between;
+    margin: 5.4%;
+}
+.fish{
+    width: 50%;
+}
+.fishdiv .p{
+    width: 40%;
+    position: relative;
+    top: 100px;
+}
+.p h1{
+    margin: 9%;
+}
+header button a{
+    color: #000;
+}
+.iconss{
+    width: 20px;
+}
+.hambuger{
+    display: none;
+}
+/* Small Mobile Phones (portrait, < 320px) */
+@media screen and (max-width: 319px) {
+    /* Styles for small mobile phones */
+    nav{
+        display: block;
+    }
+    .social-links{
+        display: none;
+    }
+    .navLinks{
+        display: block;
+    }
+    .logo{
+        text-align:left;
+    }
+    body{
+        padding: 10px;
+    }
+    footer{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    .hambuger{
+        display: block;
+        width: 10%;
+    }
+    .hambugerlines{
+        background-color: #eff4ef;
+        height: 1px;
+    }
+    header{
+        margin: 25px 0px;
+        display: flex;
+        justify-content: space-between;
+        padding:3% ;
+    }
+    .main-page-intro{
+        display: block;
+        margin: 18px 15px;
+        padding: 5% 5%;
+    }
+    .main-page-intro-text{
+        width: 90%;
+        position: relative;
+        top: 100px;
+        left: 0px;
+    }
+    .main-page-intro-text p{
+        position: relative;
+        top: 30px;
+        line-height: 20px;
+    }
+}
+
+/* Mobile Phones (portrait, 320px - 480px) */
+@media screen and (max-width: 480px) {
+    /* Styles for mobile phones */
+    nav{
+        display: block;
+    }
+    .social-links{
+        display: none;
+    }
+    .navLinks{
+        display: block;
+    }
+    .logo{
+        text-align:left;
+    }
+    body{
+        padding: 10px;
+    }
+    footer{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    .hambuger{
+        display: block;
+        width: 10%;
+    }
+    .hambugerlines{
+        background-color: #eff4ef;
+        height: 1px;
+    }
+    header{
+        margin: 25px 0px;
+        display: flex;
+        justify-content: space-between;
+        padding:3% ;
+    }
+}
+
+/* Mobile Phones (landscape, 481px - 767px) */
+@media screen and (max-width: 767px) {
+    /* Styles for mobile phones in landscape */
+    nav{
+        display: block;
+    }
+    .social-links{
+        display: none;
+    }
+    .navLinks{
+        display: block;
+    }
+    .logo{
+        text-align:left;
+    }
+    body{
+        padding: 10px;
+    }
+    footer{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    .hambuger{
+        display: block;
+        width: 10%;
+    }
+    .hambugerlines{
+        background-color: #eff4ef;
+        height: 1px;
+    }
+    header{
+        margin: 25px 0px;
+        display: flex;
+        justify-content: space-between;
+        padding:3% ;
+    }
 }
