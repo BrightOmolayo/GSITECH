@@ -305,6 +305,9 @@ input{
 .accordion-button.active {
     background-color: #ccc;
 }
+.mrkwomen{
+    width: 40px;
+}
 
 .card-container {
     display: flex;
