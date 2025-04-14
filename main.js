@@ -20,11 +20,36 @@ accordionButtons.forEach(button => {
 })
 
 // Optional: Add interactive flip functionality when clicked, if needed
-const cards = document.querySelectorAll('.card')
+// const cards = document.querySelectorAll('.card')
 
 // Uncomment this block to enable clicking to flip cards
-cards.forEach(card => {
+// cards.forEach(card => {
+//   card.addEventListener('click', () => {
+//     card.classList.toggle('flipped')
+//   })
+// })
+
+// Flip card on click
+document.querySelectorAll('.card').forEach(card => {
   card.addEventListener('click', () => {
     card.classList.toggle('flipped')
   })
+})
+
+// Scroll animation using IntersectionObserver
+// eslint-disable-next-line no-undef
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible')
+      observer.unobserve(entry.target) // Only once per element
+    }
+  })
+}, {
+  threshold: 0.2
+})
+
+// Observe all cards
+document.querySelectorAll('.card').forEach(card => {
+  observer.observe(card)
 })
