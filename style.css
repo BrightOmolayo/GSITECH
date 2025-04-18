@@ -212,11 +212,14 @@ input{
 }
 .objective-div h4{
     margin-bottom: 10px;
+    font-family:cursive;
+    font-size:20px ;
 }
 .our-vision-div{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    margin-bottom: 9px;
 }
 .vision{
     width: 45%;
