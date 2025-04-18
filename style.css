@@ -85,8 +85,8 @@ header{
 .On-going-div-main h2{
     color:#3D4435 !important;
     text-transform: uppercase;
-    position: relative;
-    top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
 }
 footer{
     display: flex;
@@ -114,6 +114,10 @@ input{
 .line{
     height: 1.5px;
     background-color: black;
+    text-align: center;
+}
+.lineh2{
+    padding-top: 30px;
 }
 .logoimg{
     width: 52px;
@@ -296,6 +300,7 @@ input{
     cursor: pointer;
     font-size: 15px;
     transition: 0.4s;
+    display: flex;
 }
 
 .accordion-button:hover {
@@ -411,6 +416,7 @@ header button a{
 }
 .iconss{
     width: 20px;
+    margin-right: 20px;
 }
 .hambuger{
     display: none;
