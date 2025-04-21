@@ -185,6 +185,25 @@ input{
     top: 30px;
     line-height: 20px;
 }
+.about-us-img{
+    width: 50%;
+}
+.fishdiv{
+    display: flex;
+    justify-content: space-between;
+    margin: 5.4%;
+}
+.fish{
+    width: 50%;
+}
+.fishdiv .p{
+    width: 40%;
+    position: relative;
+    top: 100px;
+}
+.p h1{
+    margin: 9%;
+}
 .main-div-two{
     display: flex;
     justify-content: space-around;
@@ -205,9 +224,7 @@ input{
     text-align: center;
     margin-top: 5%;
 }
-.about-us-img{
-    width: 50%;
-}
+
 .main-div-two p{
     width: 50%;
 }
@@ -398,22 +415,7 @@ input{
     background-color: #3D4435;
     color: #D4D7D9;
 }
-.fishdiv{
-    display: flex;
-    justify-content: space-between;
-    margin: 5.4%;
-}
-.fish{
-    width: 50%;
-}
-.fishdiv .p{
-    width: 40%;
-    position: relative;
-    top: 100px;
-}
-.p h1{
-    margin: 9%;
-}
+
 header button a{
     color: #000;
 }
@@ -556,6 +558,90 @@ header button a{
         display: block;
         margin: 70px 40px;
     }
+    .about-us-main-intro{
+        display: block;
+        justify-content: space-between;
+        margin: 30px 15px;
+        padding: 9% 5% 3% 5%;
+    }
+    .about-us-main{
+        background-color: #D4D7D9;
+        color: black;
+        line-height: 20px;
+    }
+    .about-us-main-intro-text{
+        width: 100%;
+        position: relative;
+        top: 40px;
+    }
+    .about-us-main-intro-text p{
+        position: relative;
+        top: 30px;
+        line-height: 20px;
+    }
+    .about-us-img{
+        width: 100%;
+    }
+    .fishdiv{
+        display: block;
+        justify-content: space-between;
+        margin: 5.4%;
+    }
+    .fish{
+        width: 100%;
+        position: relative;
+        top: 100px;
+    }
+    .fishdiv .p{
+        width: 100%;
+        position: relative;
+        top: 70px;
+    }
+    .p h1{
+        margin: 7%;
+    }
+    .objective-div{
+        display: block;
+        justify-content: space-between;
+        margin: 60% 7% 5% 7%;
+        padding-bottom: 5%;
+        padding: 5%;
+    }
+    .objective-div h4{
+        margin-bottom: 10px;
+        font-family:cursive;
+        font-size:18px ;
+    }
+    .our-vision-div{
+        display: block;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-bottom: 9px;
+    }
+    .vision{
+        width: 90%;
+    }
+    .value{
+        width: 90%;
+    }
+    .objective-div-one{
+        width: 90%;
+    }
+    .objective-div-two{
+        width: 90%;
+    }
+    .line{
+        height: 1px;
+        background-color: black;
+        text-align: center;
+        position: relative;
+        top: 130px;
+    }
+    .lineh2{
+        padding-top: 30px;
+        padding: 3% 1.5% 0% 1.5%;
+        font-weight: 400;
+    }
     
 }
 
@@ -665,6 +751,90 @@ header button a{
     .On-going-div{
         display: block;
         margin: 70px 40px;
+    }
+    .about-us-main-intro{
+        display: block;
+        justify-content: space-between;
+        margin: 30px 15px;
+        padding: 9% 5% 3% 5%;
+    }
+    .about-us-main{
+        background-color: #D4D7D9;
+        color: black;
+        line-height: 20px;
+    }
+    .about-us-main-intro-text{
+        width: 100%;
+        position: relative;
+        top: 40px;
+    }
+    .about-us-main-intro-text p{
+        position: relative;
+        top: 30px;
+        line-height: 20px;
+    }
+    .about-us-img{
+        width: 100%;
+    }
+    .fishdiv{
+        display: block;
+        justify-content: space-between;
+        margin: 5.4%;
+    }
+    .fish{
+        width: 100%;
+        position: relative;
+        top: 100px;
+    }
+    .fishdiv .p{
+        width: 100%;
+        position: relative;
+        top: 70px;
+    }
+    .p h1{
+        margin: 7%;
+    }
+    .objective-div{
+        display: block;
+        justify-content: space-between;
+        margin: 60% 7% 5% 7%;
+        padding-bottom: 5%;
+        padding: 5%;
+    }
+    .objective-div h4{
+        margin-bottom: 10px;
+        font-family:cursive;
+        font-size:18px ;
+    }
+    .our-vision-div{
+        display: block;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-bottom: 9px;
+    }
+    .vision{
+        width: 90%;
+    }
+    .value{
+        width: 90%;
+    }
+    .objective-div-one{
+        width: 90%;
+    }
+    .objective-div-two{
+        width: 90%;
+    }
+    .line{
+        height: 1px;
+        background-color: black;
+        text-align: center;
+        position: relative;
+        top: 130px;
+    }
+    .lineh2{
+        padding-top: 30px;
+        padding: 3% 1.5% 0% 1.5%;
+        font-weight: 400;
     }
 }
 
@@ -799,5 +969,89 @@ header button a{
     }
     #Poultry{
         background-color: rgba(61, 68, 53, 0.7);  
+    }
+    .about-us-main-intro{
+        display: block;
+        justify-content: space-between;
+        margin: 30px 15px;
+        padding: 9% 5% 3% 5%;
+    }
+    .about-us-main{
+        background-color: #D4D7D9;
+        color: black;
+        line-height: 20px;
+    }
+    .about-us-main-intro-text{
+        width: 100%;
+        position: relative;
+        top: 40px;
+    }
+    .about-us-main-intro-text p{
+        position: relative;
+        top: 30px;
+        line-height: 20px;
+    }
+    .about-us-img{
+        width: 100%;
+    }
+    .fishdiv{
+        display: block;
+        justify-content: space-between;
+        margin: 5.4%;
+    }
+    .fish{
+        width: 100%;
+        position: relative;
+        top: 100px;
+    }
+    .fishdiv .p{
+        width: 100%;
+        position: relative;
+        top: 70px;
+    }
+    .p h1{
+        margin: 7%;
+    }
+    .objective-div{
+        display: block;
+        justify-content: space-between;
+        margin: 60% 7% 5% 7%;
+        padding-bottom: 5%;
+        padding: 5%;
+    }
+    .objective-div h4{
+        margin-bottom: 10px;
+        font-family:cursive;
+        font-size:18px ;
+    }
+    .our-vision-div{
+        display: block;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-bottom: 9px;
+    }
+    .vision{
+        width: 90%;
+    }
+    .value{
+        width: 90%;
+    }
+    .objective-div-one{
+        width: 90%;
+    }
+    .objective-div-two{
+        width: 90%;
+    }
+    .line{
+        height: 1px;
+        background-color: black;
+        text-align: center;
+        position: relative;
+        top: 130px;
+    }
+    .lineh2{
+        padding-top: 30px;
+        padding: 3% 1.5% 0% 1.5%;
+        font-weight: 400;
     }
 }
