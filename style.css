@@ -651,6 +651,7 @@ header button a{
     nav{
         display: none;    
         width: 90%;
+        text-align: center;
     }
     nav.active {
         display: block;
@@ -659,14 +660,29 @@ header button a{
         display: block;
         background-color: #3D4435;
     }
-    /* nav.active {
-
-      } */
     .social-links{
+        width: 99%;
         display: flex;
+        justify-content: space-around;
+        font-size: large;
+        margin-top: 6%;
+    }
+    .header-and-navLinks{
+        width: 98%;
+    }
+    #navMenu button{
+        margin-top: 5%;
+    }
+    #navMenu button a{
+        color: #000;
     }
     .navLinks{
         display: block;
+        text-align: center;
+    }
+    .navLinks li{
+        list-style: none;
+        margin-top: 5%;
     }
     .logoimg{
         width: 52px;
@@ -683,12 +699,12 @@ header button a{
         margin-bottom: 40px;
     }
     .hambuger{
-        width: 70px;
-        display: block;
+        width: 90px;
+        display: flex;
         flex-direction: column-reverse;
-        gap: 13px;
-        height: 20px;
-        margin-right: 0px;
+        gap: 3px;
+        height: 20.3px;
+        margin-right: 15px;
         z-index: 99;
     }
     .hambugerlines{
@@ -846,16 +862,35 @@ header button a{
     }
     nav.active {
         display: block;
+        text-align: center;
     }
     #navMenu.active {
         display: block;
         background-color: #3D4435;
     }
     .social-links{
+        width: 99%;
         display: flex;
+        justify-content: space-around;
+        font-size: large;
+        margin-top: 6%;
+    }
+    .header-and-navLinks{
+        width: 98%;
+    }
+    #navMenu button{
+        margin-top: 5%;
+    }
+    #navMenu button a{
+        color: #000;
     }
     .navLinks{
         display: block;
+        text-align: center;
+    }
+    .navLinks li{
+        list-style: none;
+        margin-top: 5%;
     }
     .logoimg{
         width: 52px;
