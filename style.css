@@ -483,7 +483,7 @@ header button a{
         display: block;
     }
     .hambuger{
-        width: 10%;
+        width: 90px;
         display: flex;
         flex-direction: column-reverse;
         gap: 3px;
@@ -496,6 +496,18 @@ header button a{
         height: 2px;
         display: flex;
         z-index: 99;
+        width: 100%;
+    }
+    .hambugerlines1.active{
+        transform: rotate(45deg);
+        top: 13px;
+        height: 3px;
+    }
+    .hambugerlines2.active{
+        transform: rotate(-45deg);
+        position: relative;
+        top: 5px;
+        height: 3px;
     }
     header{
         margin: 25px 0px;
@@ -590,7 +602,18 @@ header button a{
         height: 2px;
         display: flex;
         z-index: 99;
-        width: 80%;
+        width: 100%;
+    }
+    .hambugerlines1.active{
+        transform: rotate(45deg);
+        top: 13px;
+        height: 3px;
+    }
+    .hambugerlines2.active{
+        transform: rotate(-45deg);
+        position: relative;
+        top: 5px;
+        height: 3px;
     }
     header{
         margin: 25px 0px;
@@ -680,6 +703,30 @@ header button a{
         height: 2px;
         display: flex;
         z-index: 99;
+        width: 100%;
+    }
+    /* .hambugerlines1.active{
+        transform: rotate(45deg);
+        top: 13px;
+        height: 3px;
+    }
+    .hambugerlines2.active{
+        transform: rotate(-45deg);
+        position: relative;
+        top: 5px;
+        height: 3px;
+    } */
+    .hambuger.active .hambugerlines1 {
+        transform: rotate(45deg);
+        top: 13px;
+        height: 3px;
+    }
+    
+    .hambuger.active .hambugerlines2 {
+        transform: rotate(-45deg);
+        position: relative;
+        top: 6px;
+        height: 3px;
     }
     header{
         margin: 25px 0px;

@@ -62,3 +62,9 @@ document.addEventListener('DOMContentLoaded', () => {
     navMenu.classList.toggle('active')
   })
 })
+
+const hamburger = document.getElementsByClassName('hambuger')[0]
+
+hamburger.addEventListener('click', function () {
+  this.classList.toggle('active')
+})
