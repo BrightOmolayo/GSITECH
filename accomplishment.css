@@ -174,3 +174,321 @@ input{
         width: 90%;
     }
 }
+/* Small Mobile Phones (portrait, < 320px) */
+@media screen and (max-width: 319px) {
+    /* Styles for small mobile phones */
+    nav{
+        display: none;
+    }
+    nav.active {
+        display: block;
+    }
+    #navMenu.active {
+        display: block;
+        background-color: #3D4435;
+        margin: 0px;
+        text-align: center;
+    }
+    .social-links{
+        width: 99%;
+        display: flex;
+        justify-content: space-around;
+        font-size: large;
+        margin-top: 6%;
+    }
+    .header-and-navLinks{
+        width: 98%;
+    }
+    #navMenu button{
+        margin-top: 5%;
+    }
+    #navMenu button a{
+        color: #000;
+    }
+    .navLinks{
+        display: block;
+        text-align: center;
+    }
+    .navLinks li{
+        list-style: none;
+        margin-top: 5%;
+    }
+    .logoimg{
+        width: 52px;
+    }
+    .logo{
+       display: flex;
+       justify-content:left;
+    }
+    footer{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    nav.active {
+        display: block;
+      }
+    .navLinks{
+        display: block;
+    }
+    .hambuger{
+        width: 10%;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 3px;
+        height: 20.3px;
+        margin-right: 15px;
+        z-index: 99;
+    }
+    .hambugerlines{
+        background-color: #eff4ef;
+        height: 2px;
+        display: flex;
+        z-index: 99;
+    }
+    header{
+        margin: 25px 0px;
+        display: flex;
+        justify-content: space-between;
+        padding:3% ;
+    }
+    .main-page-intro{
+        display: block;
+        margin: 12px 0px;
+        padding: 1% 0%;
+    }
+    .main-page-intro-text{
+        width: 90%;
+        position: relative;
+        top: 30px;
+        left: 7px;
+        padding: 3%;
+    }
+    .main-page-intro-text h1{
+        font-size: large;
+        text-transform: uppercase;
+        line-height: 24px;
+    }
+    .main-page-intro-text p{
+        position: relative;
+        top: 17px;
+        line-height: 20px;
+    }
+    .GSI-image{
+        width: 88%;
+        margin-top:30%;
+        margin-left: 5%;
+    }
+    .mini-intro-text{
+        width: 85%;
+        margin-left: 5%;
+        margin-bottom: 4%;
+        margin-top: 4%;
+    }
+    .On-going-div{
+        display: block;
+        margin: 70px 40px;
+    }
+    
+}
+
+/* Mobile Phones (portrait, 320px - 480px) */
+@media screen and (max-width: 480px) {
+    /* Styles for mobile phones */
+    nav{
+        display: none;    
+        width: 90%;
+    }
+    nav.active {
+        display: block;
+    }
+    #navMenu.active {
+        display: block;
+        background-color: #3D4435;
+    }
+    /* nav.active {
+
+      } */
+    .social-links{
+        display: flex;
+    }
+    .navLinks{
+        display: block;
+    }
+    .logoimg{
+        width: 52px;
+    }
+    .logo{
+       display: flex;
+       justify-content:left;
+    }
+    footer{
+        display: block;
+    }
+    .hambuger{
+        width: 70px;
+        display: block;
+        flex-direction: column-reverse;
+        gap: 13px;
+        height: 20px;
+        margin-right: 0px;
+        z-index: 99;
+    }
+    .hambugerlines{
+        background-color: #eff4ef;
+        height: 2px;
+        display: flex;
+        z-index: 99;
+        width: 80%;
+    }
+    header{
+        margin: 25px 0px;
+        display: flex;
+        justify-content: space-between;
+        padding:3% ;
+    }
+    .main-page-intro{
+        display: block;
+        margin: 12px 0px;
+        padding: 1% 0%;
+    }
+    .main-page-intro-text{
+        width: 90%;
+        position: relative;
+        top: 30px;
+        left: 7px;
+        padding: 3%;
+    }
+    .main-page-intro-text h1{
+        font-size: large;
+        text-transform: uppercase;
+        line-height: 24px;
+    }
+    .main-page-intro-text p{
+        position: relative;
+        top: 17px;
+        line-height: 20px;
+    }
+    .GSI-image{
+        width: 88%;
+        margin-top:30%;
+        margin-left: 5%;
+    }
+    .mini-intro-text{
+        width: 85%;
+        margin-left: 5%;
+        margin-bottom: 4%;
+        margin-top: 4%;
+    }
+    .On-going-div{
+        display: block;
+        margin: 70px 40px;
+    }
+}
+
+/* Mobile Phones (landscape, 481px - 767px) */
+@media screen and (max-width: 767px) {
+    /* Styles for mobile phones in landscape */
+    nav{
+        display: none;
+    }
+    nav.active {
+        display: block;
+    }
+    #navMenu.active {
+        display: block;
+        background-color: #3D4435;
+    }
+    .social-links{
+        display: flex;
+    }
+    .navLinks{
+        display: block;
+    }
+    .logoimg{
+        width: 52px;
+    }
+    .logo{
+       display: flex;
+       justify-content:left;
+    }
+    footer{
+        display: block;
+    }
+    .hambuger{
+        width: 10%;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 3px;
+        height: 20.3px;
+        margin-right: 15px;
+        z-index: 99;
+    }
+    .hambugerlines{
+        background-color: #eff4ef;
+        height: 2px;
+        display: flex;
+        z-index: 99;
+    }
+    header{
+        margin: 25px 0px;
+        display: flex;
+        justify-content: space-between;
+        padding:3% ;
+    }
+    .main-page-intro{
+        display: block;
+        margin: 12px 0px;
+        padding: 1% 0%;
+    }
+    .main-page-intro-text{
+        width: 90%;
+        position: relative;
+        top: 30px;
+        left: 7px;
+        padding: 3%;
+    }
+    .main-page-intro-text h1{
+        font-size: large;
+        text-transform: uppercase;
+        line-height: 24px;
+    }
+    .main-page-intro-text p{
+        position: relative;
+        top: 17px;
+        line-height: 20px;
+    }
+    .GSI-image{
+        width: 88%;
+        margin-top:30%;
+        margin-left: 5%;
+    }
+    .mini-intro-text{
+        width: 85%;
+        margin-left: 5%;
+        margin-bottom: 4%;
+        margin-top: 4%;
+    }
+    .On-going-div{
+        display: block;
+        margin: 70px 10px;
+    }
+    .On-going-div div{
+        width: 95%;
+        text-align: center;
+        padding: 2%;
+        background-color: #091001;
+        list-style: 20px;
+        color: white;
+    }
+    #training{
+        background-color: rgba(61, 68, 53, 0.7);
+    }
+    #Internship{
+        background-color: rgba(61, 68, 53, 0.7);  
+    }
+    #Poultry{
+        background-color: rgba(61, 68, 53, 0.7);  
+    }
+}

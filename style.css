@@ -7,6 +7,9 @@ body{
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+#navMenu{
+    display: none;
+}
 img{
     width: 100%;
 }
@@ -425,13 +428,40 @@ header button a{
 @media screen and (max-width: 319px) {
     /* Styles for small mobile phones */
     nav{
+        display: none;
+    }
+    nav.active {
         display: block;
     }
+    #navMenu.active {
+        display: block;
+        background-color: #3D4435;
+        margin: 0px;
+        text-align: center;
+    }
     .social-links{
-        display: none;
+        width: 99%;
+        display: flex;
+        justify-content: space-around;
+        font-size: large;
+        margin-top: 6%;
+    }
+    .header-and-navLinks{
+        width: 98%;
+    }
+    #navMenu button{
+        margin-top: 5%;
+    }
+    #navMenu button a{
+        color: #000;
     }
     .navLinks{
         display: block;
+        text-align: center;
+    }
+    .navLinks li{
+        list-style: none;
+        margin-top: 5%;
     }
     .logoimg{
         width: 52px;
@@ -446,6 +476,12 @@ header button a{
     nav{
         display: none;
     }
+    nav.active {
+        display: block;
+      }
+    .navLinks{
+        display: block;
+    }
     .hambuger{
         width: 10%;
         display: flex;
@@ -453,11 +489,13 @@ header button a{
         gap: 3px;
         height: 20.3px;
         margin-right: 15px;
+        z-index: 99;
     }
     .hambugerlines{
         background-color: #eff4ef;
         height: 2px;
         display: flex;
+        z-index: 99;
     }
     header{
         margin: 25px 0px;
@@ -509,10 +547,21 @@ header button a{
 @media screen and (max-width: 480px) {
     /* Styles for mobile phones */
     nav{
+        display: none;    
+        width: 90%;
+    }
+    nav.active {
         display: block;
     }
+    #navMenu.active {
+        display: block;
+        background-color: #3D4435;
+    }
+    /* nav.active {
+
+      } */
     .social-links{
-        display: none;
+        display: flex;
     }
     .navLinks{
         display: block;
@@ -527,21 +576,21 @@ header button a{
     footer{
         display: block;
     }
-    nav{
-        display: none;
-    }
     .hambuger{
-        width: 10%;
-        display: flex;
+        width: 70px;
+        display: block;
         flex-direction: column-reverse;
-        gap: 3px;
-        height: 20.3px;
-        margin-right: 15px;
+        gap: 13px;
+        height: 20px;
+        margin-right: 0px;
+        z-index: 99;
     }
     .hambugerlines{
         background-color: #eff4ef;
         height: 2px;
         display: flex;
+        z-index: 99;
+        width: 80%;
     }
     header{
         margin: 25px 0px;
@@ -592,10 +641,17 @@ header button a{
 @media screen and (max-width: 767px) {
     /* Styles for mobile phones in landscape */
     nav{
+        display: none;
+    }
+    nav.active {
         display: block;
     }
+    #navMenu.active {
+        display: block;
+        background-color: #3D4435;
+    }
     .social-links{
-        display: none;
+        display: flex;
     }
     .navLinks{
         display: block;
@@ -610,9 +666,6 @@ header button a{
     footer{
         display: block;
     }
-    nav{
-        display: none;
-    }
     .hambuger{
         width: 10%;
         display: flex;
@@ -620,11 +673,13 @@ header button a{
         gap: 3px;
         height: 20.3px;
         margin-right: 15px;
+        z-index: 99;
     }
     .hambugerlines{
         background-color: #eff4ef;
         height: 2px;
         display: flex;
+        z-index: 99;
     }
     header{
         margin: 25px 0px;
