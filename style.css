@@ -175,6 +175,16 @@ input{
     color: black;
     line-height: 20px;
 }
+.about-us-main-intro-text{
+    width: 40%;
+    position: relative;
+    top: 140px;
+}
+.about-us-main-intro-text p{
+    position: relative;
+    top: 30px;
+    line-height: 20px;
+}
 .main-div-two{
     display: flex;
     justify-content: space-around;
@@ -191,19 +201,9 @@ input{
     position: relative;
     top: 70px; 
 }
-.about-us-main-intro-text{
-    width: 40%;
-    position: relative;
-    top: 140px;
-}
 .acctivity-pictures-h1{
     text-align: center;
     margin-top: 5%;
-}
-.about-us-main-intro-text p{
-    position: relative;
-    top: 30px;
-    line-height: 20px;
 }
 .about-us-img{
     width: 50%;
@@ -472,6 +472,10 @@ header button a{
     }
     footer{
         display: block;
+        padding: 2%;
+    }
+    .footermaindiv{
+        margin-bottom: 40px;
     }
     nav{
         display: none;
@@ -587,6 +591,10 @@ header button a{
     }
     footer{
         display: block;
+        padding: 2%;
+    }
+    .footermaindiv{
+        margin-bottom: 40px;
     }
     .hambuger{
         width: 70px;
@@ -688,6 +696,10 @@ header button a{
     }
     footer{
         display: block;
+        padding: 2%;
+    }
+    .footermaindiv{
+        margin-bottom: 40px;
     }
     .hambuger{
         width: 10%;
