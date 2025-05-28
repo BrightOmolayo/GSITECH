@@ -42,6 +42,9 @@ header a{
     color: white;
     text-decoration: none;
 }
+header button a{
+    color: black;
+}
 header{
     margin: 25px 0px;
     display: block;
@@ -165,7 +168,12 @@ input{
     border: none;
     margin-left: 4px;
 }
-
+.hambuger{
+    display: none;
+}
+#navMenu{
+    display: none;
+}
 /* ================================
    Responsive
 ================================== */
@@ -247,6 +255,17 @@ input{
         display: flex;
         z-index: 99;
     }
+    .hambugerlines1.active{
+        transform: rotate(45deg);
+        top: 13px;
+        height: 3px;
+    }
+    .hambugerlines2.active{
+        transform: rotate(-45deg);
+        position: relative;
+        top: 5px;
+        height: 3px;
+    }
     header{
         margin: 25px 0px;
         display: flex;
@@ -290,6 +309,9 @@ input{
         display: block;
         margin: 70px 40px;
     }
+    .header-and-navLinks{
+        width: 98%;
+    }
     
 }
 
@@ -306,6 +328,12 @@ input{
     #navMenu.active {
         display: block;
         background-color: #3D4435;
+    }
+    #navMenu button{
+        margin-top: 5%;
+    }
+    #navMenu button a{
+        color: #000;
     }
     /* nav.active {
 
@@ -385,6 +413,9 @@ input{
         display: block;
         margin: 70px 40px;
     }
+        .header-and-navLinks{
+        width: 98%;
+    }
 }
 
 /* Mobile Phones (landscape, 481px - 767px) */
@@ -399,6 +430,12 @@ input{
     #navMenu.active {
         display: block;
         background-color: #3D4435;
+    }
+    #navMenu button{
+        margin-top: 5%;
+    }
+    #navMenu button a{
+        color: #000;
     }
     .social-links{
         display: flex;
@@ -491,4 +528,9 @@ input{
     #Poultry{
         background-color: rgba(61, 68, 53, 0.7);  
     }
+        .header-and-navLinks{
+        width: 98%;
+    }
 }
+
+

@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-    display: none;
 }
 body{
     background-color: #3D4435;
@@ -309,7 +308,9 @@ input{
     margin-bottom: 60px;
 }
 
-
+.accordion-activity{
+    margin: 0px 20px;
+}
 .accordion-button {
     background-color: #f1f1f1;
     color: #444;
@@ -643,7 +644,39 @@ header button a{
         padding: 3% 1.5% 0% 1.5%;
         font-weight: 400;
     }
-    
+   .acctivity-pictures{
+    display: block;
+   }
+   figure{
+    margin: 35px 5px;
+   }
+   .acctivity-pictures-h1{
+   font-size: 20px;
+}
+.contact-page-main{
+    padding: 100px 0px 50px 30px ;
+    font-size: small;
+}
+.contact-page-main input{
+    width: 200px;
+    background-color: transparent;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid #3D4435;
+    margin-bottom: 35px;
+}
+.contact-page-main textarea{
+    width: 220px;
+    margin-top: 28px;
+}
+.contact-page-main button{
+    padding: 2%;
+    border: 2px solid #3D4435;
+    border-radius: 20px;
+    background-color: #3D4435;
+    color: #D4D7D9;
+}    
 }
 
 /* Mobile Phones (portrait, 320px - 480px) */
@@ -853,6 +886,39 @@ header button a{
         padding: 3% 1.5% 0% 1.5%;
         font-weight: 400;
     }
+       .acctivity-pictures{
+    display: block;
+   }
+   figure{
+    margin: 35px 5px;
+   }
+   .acctivity-pictures-h1{
+   font-size: 20px;
+}
+.contact-page-main{
+    padding: 100px 0px 50px 30px ;
+    font-size: small;
+}
+.contact-page-main input{
+    width: 200px;
+    background-color: transparent;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid #3D4435;
+    margin-bottom: 35px;
+}
+.contact-page-main textarea{
+    width: 220px;
+    margin-top: 28px;
+}
+.contact-page-main button{
+    padding: 2%;
+    border: 2px solid #3D4435;
+    border-radius: 20px;
+    background-color: #3D4435;
+    color: #D4D7D9;
+}
 }
 
 /* Mobile Phones (landscape, 481px - 767px) */
@@ -1090,4 +1156,37 @@ header button a{
         padding: 3% 1.5% 0% 1.5%;
         font-weight: 400;
     }
+           .acctivity-pictures{
+    display: block;
+   }
+   figure{
+    margin: 35px 5px;
+   }
+   .acctivity-pictures-h1{
+   font-size: 20px;
+}
+.contact-page-main{
+    padding: 100px 0px 50px 30px ;
+    font-size: small;
+}
+.contact-page-main input{
+    width: 200px;
+    background-color: transparent;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid #3D4435;
+    margin-bottom: 35px;
+}
+.contact-page-main textarea{
+    width: 220px;
+    margin-top: 28px;
+}
+.contact-page-main button{
+    padding: 2%;
+    border: 2px solid #3D4435;
+    border-radius: 20px;
+    background-color: #3D4435;
+    color: #D4D7D9;
+}
 }
