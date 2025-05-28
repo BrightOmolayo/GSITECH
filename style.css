@@ -601,6 +601,7 @@ header button a{
     }
     .p h1{
         margin: 7%;
+        line-height: 40px;
     }
     .objective-div{
         display: block;
@@ -841,8 +842,9 @@ header button a{
         position: relative;
         top: 70px;
     }
-    .p h1{
+      .p h1{
         margin: 7%;
+        line-height: 40px;
     }
     .objective-div{
         display: block;
@@ -1113,6 +1115,7 @@ header button a{
     }
     .p h1{
         margin: 7%;
+        line-height: 40px;
     }
     .objective-div{
         display: block;
