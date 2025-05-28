@@ -240,6 +240,11 @@ input{
     .navLinks{
         display: block;
     }
+    li{
+        list-style: none;
+        margin-top: 5%;
+        margin-left: 20px;
+    }
     .hambuger{
         width: 10%;
         display: flex;
@@ -255,15 +260,16 @@ input{
         display: flex;
         z-index: 99;
     }
-    .hambugerlines1.active{
+    .hambuger.active .hambugerlines1 {
         transform: rotate(45deg);
         top: 13px;
         height: 3px;
     }
-    .hambugerlines2.active{
+    
+    .hambuger.active .hambugerlines2 {
         transform: rotate(-45deg);
         position: relative;
-        top: 5px;
+        top: 6px;
         height: 3px;
     }
     header{
@@ -309,10 +315,6 @@ input{
         display: block;
         margin: 70px 40px;
     }
-    .header-and-navLinks{
-        width: 98%;
-    }
-    
 }
 
 /* Mobile Phones (portrait, 320px - 480px) */
@@ -343,6 +345,10 @@ input{
     }
     .navLinks{
         display: block;
+    }
+        .navLinks li{
+        list-style: none;
+        margin-top: 5%;
     }
     .logoimg{
         width: 52px;
@@ -442,6 +448,10 @@ input{
     }
     .navLinks{
         display: block;
+    }
+        .navLinks li{
+        list-style: none;
+        margin-top: 5%;
     }
     .logoimg{
         width: 52px;
