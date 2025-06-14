@@ -428,6 +428,9 @@ header button a{
 .hambuger{
     display: none;
 }
+body{
+    display: none;
+}
 /* Small Mobile Phones (portrait, < 320px) */
 @media screen and (max-width: 319px) {
     /* Styles for small mobile phones */
